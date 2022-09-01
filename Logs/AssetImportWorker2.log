@@ -1,0 +1,377 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'es' Physical Memory: 16295 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Programas\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Unity/ProyectoVideojuegos
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+64147
+Successfully changed project path to: D:/Unity/ProyectoVideojuegos
+D:/Unity/ProyectoVideojuegos
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 126.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path D:/Programas/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/ProyectoVideojuegos/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   31.0.15.1659
+Initialize mono
+Mono path[0] = 'D:/Programas/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programas/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Programas/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programas/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Programas/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002774 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 153.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Domain Reload Profiling:
+	ReloadAssembly (874ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (607ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (154ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005000 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.031 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1032ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (831ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (463ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3506 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (465.9 KB). Loaded Objects now: 3984.
+Memory consumption went from 150.1 MB to 149.7 MB.
+Total: 3.854200 ms (FindLiveObjects: 0.465700 ms CreateObjectMapping: 0.113000 ms MarkObjects: 2.967200 ms  DeleteObjects: 0.307400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1126.330606 seconds.
+  path: Assets/HelloMarioAssets/Decor/Grass/Bush (Autumn).prefab
+  artifactKey: Guid(f0d495d350bf75647b43b4c4eed02144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Grass/Bush (Autumn).prefab using Guid(f0d495d350bf75647b43b4c4eed02144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9221c27cc3803a7e19a6feb3c7eb907b') in 0.438319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HelloMarioAssets/Decor/Grass/Grass Bud.prefab
+  artifactKey: Guid(fcf1ed427ed746947a9cb9d64e39187f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Grass/Grass Bud.prefab using Guid(fcf1ed427ed746947a9cb9d64e39187f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdd0a8ee9da93ddfdf3b24691252caa') in 0.226325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HelloMarioAssets/Decor/Grass/Grass.prefab
+  artifactKey: Guid(5f7049050eaa4bd41b45de60ec3f6831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Grass/Grass.prefab using Guid(5f7049050eaa4bd41b45de60ec3f6831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce0dfab97c2db4d5105b0325466bb21') in 0.055402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HelloMarioAssets/Decor/Grass/Bush.prefab
+  artifactKey: Guid(46765522ee54018429a0e66d8c9752b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Grass/Bush.prefab using Guid(46765522ee54018429a0e66d8c9752b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ee4ee4e16e4bc050f23811743541dd') in 0.042822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HelloMarioAssets/Decor/Grass/Grass Bits.prefab
+  artifactKey: Guid(16204762b5a37a64880b4af3a9363b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Grass/Grass Bits.prefab using Guid(16204762b5a37a64880b4af3a9363b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47875ced976712545b6695efaee8c49') in 0.022527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.936892 seconds.
+  path: Assets/HelloMarioAssets/Decor/Ladder/Ladder Bottom.prefab
+  artifactKey: Guid(dc068c72ddbe06b40a824e2fdf550bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Ladder/Ladder Bottom.prefab using Guid(dc068c72ddbe06b40a824e2fdf550bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56c9b9b87e1bfc557a8a5247c97d9b9') in 0.268815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HelloMarioAssets/Decor/Ladder/Ladder Support.prefab
+  artifactKey: Guid(5748c50c0f98b8d458de5aa81b027dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Ladder/Ladder Support.prefab using Guid(5748c50c0f98b8d458de5aa81b027dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3e3df8e9b21f23f77d6c27942738e4') in 0.080743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.487890 seconds.
+  path: Assets/HelloMarioAssets/Decor/Lantern/Lamp.prefab
+  artifactKey: Guid(a9132d7e53af4c44b9a183eb08b7108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Lantern/Lamp.prefab using Guid(a9132d7e53af4c44b9a183eb08b7108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fe4e82f1cbe2623005995ccd8f83cd') in 0.684707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HelloMarioAssets/Decor/Lantern/Torch.prefab
+  artifactKey: Guid(ad24b9702152cdc4bab04342b17ea9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Lantern/Torch.prefab using Guid(ad24b9702152cdc4bab04342b17ea9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fbd27636e9ebbff0a735fff1f25e26') in 0.480071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HelloMarioAssets/Decor/Lantern/Lantern Floor.prefab
+  artifactKey: Guid(46c875fc6bb45f644b22d14ab3f15d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Lantern/Lantern Floor.prefab using Guid(46c875fc6bb45f644b22d14ab3f15d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd6cadd211285a954032fec49a91c80') in 0.350573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.301038 seconds.
+  path: Assets/HelloMarioAssets/Decor/LavaGeyser/Lava Geyser.prefab
+  artifactKey: Guid(bb5ddd85b2152df48bfd35fab49bac65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/LavaGeyser/Lava Geyser.prefab using Guid(bb5ddd85b2152df48bfd35fab49bac65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c73d440ae36f4146cf51fffb2651b1d') in 0.193433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.648937 seconds.
+  path: Assets/HelloMarioAssets/Decor/LookoutTower/Lookout Tower.prefab
+  artifactKey: Guid(115e4c8d79adf084e87e38eb9530d9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/LookoutTower/Lookout Tower.prefab using Guid(115e4c8d79adf084e87e38eb9530d9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f76d877a15cf5bce0bfb6dcbaff1bca') in 0.279789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.514904 seconds.
+  path: Assets/HelloMarioAssets/Decor/Mushroom/Mush Hills (Green).prefab
+  artifactKey: Guid(8e16a6b36ad80a646ab2fc5220b4dcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Mushroom/Mush Hills (Green).prefab using Guid(8e16a6b36ad80a646ab2fc5220b4dcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974a7570d637a30abbb0b0f47d4f67b8') in 0.237254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HelloMarioAssets/Decor/Mushroom/Mush Hills XL (Green).prefab
+  artifactKey: Guid(f5a070c2a1f2f8f438af093a1f786a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Mushroom/Mush Hills XL (Green).prefab using Guid(f5a070c2a1f2f8f438af093a1f786a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51338cddf76488da2db9b9ddec6b0e87') in 0.070699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HelloMarioAssets/Decor/Mushroom/Mush Large (Green).prefab
+  artifactKey: Guid(28dd5a293d339224ab9d35575ce517bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Mushroom/Mush Large (Green).prefab using Guid(28dd5a293d339224ab9d35575ce517bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82adce9659b22a48ccbe90db6dc44528') in 0.076415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010367 seconds.
+  path: Assets/HelloMarioAssets/Decor/Mushroom/Mush.prefab
+  artifactKey: Guid(e27efd1397706a040b954c2e4791cbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Mushroom/Mush.prefab using Guid(e27efd1397706a040b954c2e4791cbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be175e7941fc7d0020ec746fba80c7b6') in 0.149406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 476.883629 seconds.
+  path: Assets/HelloMarioAssets/Decor/Castle/Tex/CandleStone00_N_alb.png
+  artifactKey: Guid(e6374684e8ee2e44bb937c2e3e9ffb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Castle/Tex/CandleStone00_N_alb.png using Guid(e6374684e8ee2e44bb937c2e3e9ffb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21e654a2790ecb71a4d78521a5cb3c0') in 0.563497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HelloMarioAssets/Decor/Castle/Tex/KoopaFlag00_DS_spc.png
+  artifactKey: Guid(b1b9dd44c1f4bb1458de1af1bb151af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Castle/Tex/KoopaFlag00_DS_spc.png using Guid(b1b9dd44c1f4bb1458de1af1bb151af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c141f1e6b804887a0f2f47ec7ae21161') in 0.079038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/HelloMarioAssets/Decor/Castle/Tex/KoopaFlag00_DS_alb.png
+  artifactKey: Guid(acf60d6826d37ed4a95f34ab1224d755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Castle/Tex/KoopaFlag00_DS_alb.png using Guid(acf60d6826d37ed4a95f34ab1224d755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8364b18c99cfbcb3a04658cea810e7e6') in 0.011376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HelloMarioAssets/Decor/Castle/Tex/CandleStone01_N_nrm.png
+  artifactKey: Guid(0c14130464ad67842b229c6c99a687c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Castle/Tex/CandleStone01_N_nrm.png using Guid(0c14130464ad67842b229c6c99a687c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ded4aed1b9880a56dfc0e34574625ab') in 0.015180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HelloMarioAssets/Decor/Castle/Tex/FlagEdge00_DS_spc.png
+  artifactKey: Guid(11895b87d366a9c4baf883f8100f9840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Castle/Tex/FlagEdge00_DS_spc.png using Guid(11895b87d366a9c4baf883f8100f9840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0820a99572548b8b250b8d59e89315') in 0.089585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HelloMarioAssets/Decor/Castle/Tex/CandleStone00_N_spc.png
+  artifactKey: Guid(b26a7ff1b82c6f84eadab8928157b46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Castle/Tex/CandleStone00_N_spc.png using Guid(b26a7ff1b82c6f84eadab8928157b46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c183f626cb52ba34a2309a0ad72d34') in 0.067545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HelloMarioAssets/Decor/Castle/Tex/CandleStone01_N_spc.png
+  artifactKey: Guid(f61207b6162484b43b0de767f2ef7431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Castle/Tex/CandleStone01_N_spc.png using Guid(f61207b6162484b43b0de767f2ef7431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb07aa0d516a9e67894fa45129dc003d') in 0.071056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HelloMarioAssets/Decor/Castle/Tex/FlagParts_DS_alb.png
+  artifactKey: Guid(b43f28104d34fac4999f1d56fec7b224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Castle/Tex/FlagParts_DS_alb.png using Guid(b43f28104d34fac4999f1d56fec7b224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83651e46673f5b10d3a1762669be306c') in 0.011712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HelloMarioAssets/Decor/Castle/Tex/PlayerFireBall_ems.dds
+  artifactKey: Guid(3008cbb5c6e0b934081ae8b14e77086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Castle/Tex/PlayerFireBall_ems.dds using Guid(3008cbb5c6e0b934081ae8b14e77086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993fcaad774938faf4116ac7229f393e') in 0.016148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HelloMarioAssets/Decor/Castle/Tex/Charcoal00_N_spc.png
+  artifactKey: Guid(0688bb7396b91c046b47942552c1e5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Castle/Tex/Charcoal00_N_spc.png using Guid(0688bb7396b91c046b47942552c1e5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677c0ed2b9a71b669ee4e8867b6889bd') in 0.061073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HelloMarioAssets/Decor/Castle/Tex/Stone00_DH_alb.dds
+  artifactKey: Guid(f75d8489f78906744913e471d956e722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Castle/Tex/Stone00_DH_alb.dds using Guid(f75d8489f78906744913e471d956e722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3065537e371daba1fc50b0abf208cdb9') in 0.011041 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005153 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Domain Reload Profiling:
+	ReloadAssembly (930ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (709ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3482 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (434.4 KB). Loaded Objects now: 4002.
+Memory consumption went from 165.3 MB to 164.8 MB.
+Total: 4.012500 ms (FindLiveObjects: 0.369500 ms CreateObjectMapping: 0.100900 ms MarkObjects: 3.259300 ms  DeleteObjects: 0.281700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
